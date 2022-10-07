@@ -10,7 +10,7 @@ jobs:
       with:
         node-version: '17'
         cache: 'npm'
-        cache-dependency-path: 'server/package-lock.json'
+        cache-dependency-path: 'package-lock.json'
     - run: npm install
     - run: npm run lint-check
     - run: npm run test
